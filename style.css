@@ -1,0 +1,32 @@
+body {
+    background-color: darkolivegreen;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.btn {
+    background: #ffe600;
+    font-size: 24px;
+    font-style: 700;
+    padding: 10px 20px;
+    margin: 40px;
+    cursor: pointer;
+
+}
+
+.btn:hover, .btn:active {
+    box-shadow: 5px 5px 10px #222222;
+    background-color: orangered;
+}
+
+.text {
+    font-size: 18px;
+    font-style: italic;
+    text-transform: uppercase;
+
+}
+
+.text:hover {
+    box-shadow: 8px 3px 10px rgb(109, 2, 180);
+
+}
